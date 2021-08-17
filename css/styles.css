@@ -1,0 +1,64 @@
+:root {
+  --primary-text-color: #757575;
+  --tittle-text-color: #212121;
+  --accent-color: #2196f3;
+  --button-color: #ffffff;
+}
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+/* Logo */
+.logo {
+  color: var(--accent-color);
+}
+/* List style */
+.list {
+  list-style: none;
+}
+/* site nav */
+.site-nav .link {
+  color: var(--tittle-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* section-tittle */
+.section-tittle {
+  color: var(--tittle-text-color);
+}
+/* main for business */
+.mainbusiness .tittle {
+  color: var(--tittle-text-color);
+}
+/* our team */
+.ourteam .tittle {
+  color: var(--tittle-text-color);
+}
+/* footer */
+.footer .logocolor {
+  color: #ffffff;
+}
+/* header */
+.header .logocolor {
+  color: #000000;
+}
+/* hero */
+.hero .button {
+  color: var(--button-color);
+  background-color: var(--accent-color);
+}
+/* portfolio */
+.filters .button {
+  color: var(--tittle-text-color);
+  background-color: #f5f4fa;
+}
+.filters .button:hover,
+.filters .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
