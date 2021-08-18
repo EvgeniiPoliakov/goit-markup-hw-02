@@ -7,10 +7,17 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: "Roboto", sans-serif;
 }
 /* Logo */
 .logo {
   color: var(--accent-color);
+  font-family: "Raleway", cursive;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 /* List style */
 .list {
@@ -18,7 +25,8 @@ body {
 }
 /* site nav */
 .site-nav .link {
-  color: var(--tittle-text-color);
+  color: #212121;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -26,39 +34,127 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 /* section-tittle */
 .section-tittle {
   color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* main for business */
 .mainbusiness .tittle {
   color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+.mainbusiness .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 /* our team */
 .ourteam .tittle {
   color: var(--tittle-text-color);
 }
+.ourteam .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
 /* footer */
 .footer .logocolor {
   color: #ffffff;
 }
+.footer-link,
+.footer-map {
+  color: rgba(255, 255, 255, 0.6);
+  font-weight;: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  font-style: normal;
+}
+.footer-map {
+  color: #FFFFFF;
+}
+
 /* header */
 .header .logocolor {
   color: #000000;
 }
+.header-contacts {
+  text-decoration: none;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header-contacts:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
 /* hero */
+.hero-tittle {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
 .hero .button {
   color: var(--button-color);
   background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 /* portfolio */
-.filters .button {
+.portfolio-tittle {
   color: var(--tittle-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  letter-spacing: 0.06em;
+}
+.cards .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: left;
+  letter-spacing: 0.03em;
+}
+
+.filters .button {
+  color: #212121;
   background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
 }
 .filters .button:hover,
 .filters .button:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+/* ground */
+.ground {
+  background-color: #2f303a;
 }
